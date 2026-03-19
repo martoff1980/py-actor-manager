@@ -14,7 +14,7 @@ class ActorManager:
         self.cursor.execute(
             f"""
             CREATE TABLE IF NOT EXISTS {self.table_name}
-            (id INTEGER PRIMARY KEY AUTOINCREMENT, first_name TEXT, 
+            (id INTEGER PRIMARY KEY AUTOINCREMENT, first_name TEXT,
             last_name TEXT)
             """
         )
